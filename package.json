@@ -1,0 +1,23 @@
+{
+  "name": "task-app",
+  "version": "1.0.0",
+  "description": "To do list app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Brayden Miller",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braydenmiller4/TaskListApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/braydenmiller4/TaskListApp/issues"
+  },
+  "homepage": "https://github.com/braydenmiller4/TaskListApp#readme"
+}
