@@ -33,7 +33,19 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 0.95rem;
 }
 
 /* Type Styles */
@@ -43,56 +55,80 @@ body {
   border-radius: 10px;
   border:1px solid #000;
   padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-weight: 800;
+  margin:0.25rem;
 }
 
 .normal {
-  
+  background-color: #A8A77A;
 }
 
 .fighting {
-  
+  background-color: #C22E28;
 }
 
 .flying {
-  
+  background-color: #A98FF3;
 }
 
 .grass {
-  
+  background-color: #7AC74C;
 }
 
 .water {
-  
+  background-color: #6390F0;
 }
 
 .fire {
-  
+  background-color: #EE8130;
+}
+
+.electric {
+  background-color: #F7D02C;
+}
+
+.ice {
+  background-color: #96D9D6;
 }
 
 .psychic {
-  
+  background-color: #F95587;
 }
 
 .poison {
-  
+  background-color: #A33EA1;
+}
+
+.bug {
+  background-color: #A6B91A;
 }
 
 .ghost {
-  
+  background-color: #735797;
 }
 
 .fairy {
-  
+  background-color: #D685AD;
 }
 
 .ground {
-  
+  background-color: #E2BF65;
 }
 
 .rock {
-  
+  background-color: #B6A136;
+}
+
+.dragon {
+  background-color: #6F35FC;
+}
+
+.dark {
+  background-color: #705746;
 }
 
 .steel {
-  
+  background-color: #B7B7CE;
 }
